@@ -7,7 +7,9 @@ export default class Player extends Component {
             <div className='container'>
                 <div className='column'>
                     <div className='card'>
-                        <img src='./assets/images/cr.jpg'></img>
+                        <figure>
+                            <img src='./assets/images/cr.jpg'></img>
+                        </figure>
                         <h3>Cristiano Ronaldo</h3>
                         <p className='title'>Manchester United</p>
                         <p><button>Detail</button></p>
@@ -15,7 +17,9 @@ export default class Player extends Component {
                 </div>
                 <div className='column'>
                     <div className='card'>
-                        <img src='assets/images/kante.jpg'></img>
+                        <figure>
+                            <img src='assets/images/kante.jpg'></img>
+                        </figure>
                         <h3>Kante</h3>
                         <p className='title'>Chelsea</p>
                         <p><button>Detail</button></p>
@@ -23,7 +27,9 @@ export default class Player extends Component {
                 </div>
                 <div className='column'>
                     <div className='card'>
-                        <img src='assets/images/messi.jpg'></img>
+                        <figure>
+                            <img src='assets/images/messi.jpg'></img>
+                        </figure>
                         <h3>Messi</h3>
                         <p className='title'>PSG</p>
                         <p><button>Detail</button></p>
@@ -31,7 +37,9 @@ export default class Player extends Component {
                 </div>
                 <div className='column'>
                     <div className='card'>
-                        <img src='assets/images/neymar.jpg'></img>
+                        <figure>
+                            <img src='assets/images/neymar.jpg'></img>
+                        </figure>
                         <h3>Neymar</h3>
                         <p className='title'>PSG</p>
                         <p><button>Detail</button></p>
@@ -39,7 +47,9 @@ export default class Player extends Component {
                 </div>
                 <div className='column'>
                     <div className='card'>
-                        <img src='assets/images/kane.jpg'></img>
+                        <figure>
+                            <img src='assets/images/kane.jpg'></img>
+                        </figure>
                         <h3>Kane</h3>
                         <p className='title'>Tottemham</p>
                         <p><button>Detail</button></p>
@@ -47,7 +57,9 @@ export default class Player extends Component {
                 </div>
                 <div className='column'>
                     <div className='card'>
-                        <img src='assets/images/haaland.jpg'></img>
+                        <figure>
+                            <img src='assets/images/haaland.jpg'></img>
+                        </figure>
                         <h3>Haaland</h3>
                         <p className='title'>Manchester City</p>
                         <p><button>Detail</button></p>

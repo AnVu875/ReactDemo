@@ -6,24 +6,30 @@
 }
 
 .column {
-    width: calc(100vw/3.5);
+    width: 40rem;
+    min-width: 10rem;
 }
 
 .card {
-    width: 100%;
+    width: 96%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: pink;
+    background: transparent;
     padding: 1rem;
-    margin-bottom: 6rem;
+    margin: 0 1rem 6rem 1rem;
     border: 2px solid palevioletred;
     border-radius: 5.5px;
-
+    box-shadow: 0px 0px 15px;
+    transition: 0.3s;
 }
 
 .card:hover {
-    background-image: linear-gradient(75deg, rgb(225, 124, 141), purple);
+    background: pink
+}
+
+.card:hover img {
+    transform: scale(1.25);
 }
 
 button {
@@ -47,6 +53,12 @@ h3 {
     margin-top: 3rem;
 }
 
+figure {
+    width: 100%;
+    overflow: hidden;
+}
+
 img {
     width: 100%;
+    transition: 0.6s;
 }
