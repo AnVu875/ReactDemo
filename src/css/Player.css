@@ -1,5 +1,6 @@
 .container {
-    margin: 11rem 0 4rem 0;
+    padding: 11rem 0 4rem 0;
+    background-color: rgb(219, 219, 193);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -13,9 +14,9 @@
 .card {
     width: 96%;
     display: flex;
+    background-color: beige;
     flex-direction: column;
     align-items: center;
-    background: transparent;
     padding: 1rem;
     margin: 0 1rem 6rem 1rem;
     border: 2px solid palevioletred;
@@ -25,20 +26,22 @@
 }
 
 .card:hover {
-    background: pink
+    background-color: pink
 }
 
 .card:hover img {
     transform: scale(1.25);
+    opacity: 1;
 }
 
 button {
-    padding: 0.5rem;
+    padding: 1rem;
     margin-top: 3rem;
     border: 1px solid black;
     border-radius: 5px;
     transition: 0.3s;
     font-weight: 700;
+    font-size: 1.7rem;
     background-color: bisque;
 }
 
@@ -60,5 +63,6 @@ figure {
 
 img {
     width: 100%;
+    opacity: 0.6;
     transition: 0.6s;
 }
