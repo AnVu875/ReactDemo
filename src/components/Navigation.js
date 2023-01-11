@@ -4,7 +4,11 @@ import '../css/Navigation.css';
 export default class Navigation extends Component {
     render () {
         return (
-            <div>
+            <div id='navigation'>
+                <input type={'checkbox'}></input>
+                <div>
+                    <div></div>
+                </div>
                 <nav>
                     <ul>
                         <li><a href='#'>Home</a></li>

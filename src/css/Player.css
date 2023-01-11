@@ -14,7 +14,7 @@
 .card {
     width: 96%;
     display: flex;
-    background-color: beige;
+    background-color: #fff;
     flex-direction: column;
     align-items: center;
     padding: 1rem;
