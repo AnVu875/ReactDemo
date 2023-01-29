@@ -1,11 +1,10 @@
 import React from 'react';
 import '../css/Player.css';
-import { Players } from '../ListOfPlayers';
 
-export default function Player () {
+export default function PlayersPresentation ( { players } ) {
     return (
         <div className='container'>
-            {Players.map( ( player ) => (
+            {players.map( ( player ) => (
                 <div className='column' key={player.id}>
                     <div className='card'>
                         <figure>
@@ -16,10 +15,11 @@ export default function Player () {
                         <p><button>Detail</button></p>
                     </div>
                 </div>
-            ) )}
+            ) )};
         </div>
     );
 };
+
 
 
 
