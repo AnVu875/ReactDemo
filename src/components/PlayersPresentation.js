@@ -15,7 +15,7 @@ export default function PlayersPresentation ( { players } ) {
                         <p><button>Detail</button></p>
                     </div>
                 </div>
-            ) )};
+            ) )}
         </div>
     );
 };
